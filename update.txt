@@ -1,11 +1,35 @@
-update:
-git add . && git commit -m " -- " && git push origin main
+# 1. افتح التيرمنال داخل مجلد مشروعك
+cd path/to/your/project
 
-get lastest: 
-git pull origin main
+# 2. تهيئة المشروع كمستودع Git
+git init
 
+# 3. إضافة جميع الملفات
+git add .
 
+# 4. إنشاء أول commit
+git commit -m "أول رفع للمشروع"
 
-git remote add origin https://github.com/its1gg/ITX.git
+# 5. ربط المستودع المحلي بـ GitHub (انسخ رابط الريبو من GitHub)
+git remote add origin https://github.com/USERNAME/REPO.git
+
+# 6. تحديد الفرع الرئيسي
 git branch -M main
+
+# 7. رفع الملفات إلى GitHub
 git push -u origin main
+
+
+
+
+
+git add .
+git commit -m "تحديث جديد"
+git push
+
+
+# 1. افتح التيرمنال واختر المجلد اللي تبي تنزل فيه المشروع
+cd path/to/your/folder
+
+# 2. نسخ المشروع من GitHub
+git clone https://github.com/USERNAME/REPO.git
