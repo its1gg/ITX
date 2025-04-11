@@ -1,0 +1,11 @@
+update:
+git add . && git commit -m " -- " && git push origin main
+
+get lastest: 
+git pull origin main
+
+
+
+git remote add origin https://github.com/its1gg/ITX.git
+git branch -M main
+git push -u origin main
